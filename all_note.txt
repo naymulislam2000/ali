@@ -1,0 +1,140 @@
+1st class====================================================== class 1
+>>open a new folder 
+>>go this pc select file extensions
+>>open a html file (.html)
+
+2nd class======================================================== class 2
+>>html 
+>>head tag 
+>>body tag 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>this is my web</title>
+</head>
+<body>
+    <h1>this is headding one</h1>
+    <h2>this is headding two </h2>
+    <h3>this is headding three</h3>
+    <h4>this is headding four</h4> 
+    <h5>this is headding five</h5>
+    <h6>this is headding six</h6> 
+    <p>my name is <i><b>MD Naymul Islam</b></i>naymu islam <br>my father name is md moshin ,my mother name is tohamina akther my small brother name is nazimul islam , my sister name is fathema akther.my fother is a businessmen </p>
+    <p>my name is naymu islam .my father name is md moshin ,my mother name is tohamina akther my small brother name is nazimul islam ,<br> my sister name is fathema akther.my fother is a businessmen </p>  
+    <button>plese click me </button>
+    <button>plese click me 2</button>
+    <button>plese click me 3</button>
+
+    <a href="https://www.prothomalo.com " target="_blank">go to prothom alo </a>
+    <a href="https://www.prothomalo.com">go to prothom alo </a>
+    <div>
+    <a href="https://www.prothomalo.com">go to prothom alo </a>
+    <a href="https://www.prothomalo.com">go to prothom alo </a>
+
+    </div>
+    <img src="https://wcshool" alt="naim">
+
+</body>
+
+</html> 
+
+
+3rd class=========================================================== class 3
+
+                    ========html code===========
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css"> <!--for css link-->
+    <title>this is my css class</title>
+</head>
+<body>
+    <h1>This is my att...</h1>
+    <h4>i am web developer at fiver and upwouk</h4>
+    <p>Bangladesh is blessed with huge inland open water resources . it has numerous river canals , beels , lakes , and vast areas of floodplains .hakaluki haor is one of the major wetlands of bangladesh .with a land area of 18,386 hectares , it supports a rich biodiversity and provides direct and indirect livelihood benefits to nearly 190000 people . this haor was declared an ecologically critical Area in April 1999 by the government of bangldesh .
+    </p>
+    <img id="one" src="./images/ethical haking.jpeg" alt="cearti">  
+    <img class="mdimg" src="./images/ethical haking.jpeg" alt="cearti"> 
+    <img src="./images/ethical haking.jpeg" alt="cearti"> 
+
+    <div class="parent">
+        <div class="box1">
+
+        </div>
+        <div class="box2">
+    
+        </div>
+    </div>
+
+     
+   </body>
+
+</html> 
+
+                 ======== ========css code==============
+h1{
+    font-size: 55px; /*font sizer jonno*/
+    text-align: center; /*text mazkhane newar jonno*/
+    display: inline-block; /*ek liner modde disply korar jonno*/ 
+
+}
+h4{
+    font-size: 40px; /*font sizer jonno*/
+    background-color: blue; /*back color er jonno*/
+    text-align: right; /*text danthike newar jonno*/
+    display: inline-block; /*ek liner modde ekadik disply korar jonno*/ 
+}
+p{
+    text-align: justify; /*shob lekha ke pragraph akare sajanor jonno*/ 
+}
+img{
+    border: 3px solid grey; /*img er border er size ebong border er color er jonno*/
+    margin: auto; /*img ke majkhane newar jonno*/
+    display: block; /*display block korar jonno*/
+}
+.mdimg{ /*class select korar jonno .  use korte hove*/
+    border: 3px solid purple; /*img er border er size ebong border er color er jonno*/
+    display: inline; /*display genarely  korar jonno*/
+    margin-top: 10px; /*uporer margin er jonno*/
+    margin-right: 10px; /*dan sider margin er jonno*/
+    margin-bottom: 20px; /*nicer margin er jonno*/
+    margin-left: 10px; /*bam sider margin er jonno*/ 
+}
+
+#one{ /*id select korar jonno # use korte hove*/
+    border: 7px  dotted green;  /*img er border er size ebong border er color er jonno*/
+    margin: 50px 20px 40px 30px; /*img ke akta niddisto marjin dewor jonno*/
+    padding: 20px 30px 10px 15px;/* padding box er bitor jayga kore dey r margin box er out e */
+    height: 500px; /*img er lomba barano r komanor jonno*/
+    width: 600px; /*img er side barano r komanor jonno*/
+
+}
+.parent{
+    display: flex;/*div ke pasa pasi anar jonno flax use kore*/
+    justify-content: space-between; /*dui ta div ke dui pase newor jonno*/
+    align-items: center;/*item gulake maje anar jonno*/
+}
+.box1{
+    height: 500px; /*img er lomba barano r komanor jonno*/
+    width: 600px; /*img er side barano r komanor jonno*/
+    background-color: rgb(255, 0, 162); /*back color er jonno*/
+}
+.box2{
+    height: 500px; /*img er lomba barano r komanor jonno*/
+    width: 300px; /*img er side barano r komanor jonno*/
+    background-color: aqua; /*back color er jonno*/
+}
+
+4st class====================================================== class 4==================
+
+8st class====================================================== class 8=========
+
+meadia query or responsive web design
+
+

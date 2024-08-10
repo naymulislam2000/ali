@@ -1,0 +1,55 @@
+h1{
+    font-size: 55px; /*font sizer jonno*/
+    text-align: center; /*text mazkhane newar jonno*/
+    display: inline-block; /*ek liner modde disply korar jonno*/ 
+
+}
+h4{
+    font-size: 40px; /*font sizer jonno*/
+    background-color: blue; /*back color er jonno*/
+    text-align: right; /*text danthike newar jonno*/
+    display: inline-block; /*ek liner modde ekadik disply korar jonno*/ 
+}
+p{
+    text-align: justify; /*shob lekha ke pragraph akare sajanor jonno*/ 
+}
+img{
+    border: 3px solid grey; /*img er border er size ebong border er color er jonno*/
+    margin: auto; /*img ke majkhane newar jonno*/
+    display: block; /*display block korar jonno*/
+}
+.mdimg{ /*class select korar jonno .  use korte hove*/
+    border: 3px solid purple; /*img er border er size ebong border er color er jonno*/
+    display: inline; /*display genarely  korar jonno*/
+    margin-top: 10px; /*uporer margin er jonno*/
+    margin-right: 10px; /*dan sider margin er jonno*/
+    margin-bottom: 20px; /*nicer margin er jonno*/
+    margin-left: 10px; /*bam sider margin er jonno*/ 
+}
+
+#one{ /*id select korar jonno # use korte hove*/
+    border: 7px  dotted green;  /*img er border er size ebong border er color er jonno*/
+    margin: 50px 20px 40px 30px; /*img ke akta niddisto marjin dewor jonno*/
+    padding: 20px 30px 10px 15px;/* padding box er bitor jayga kore dey r margin box er out e */
+    height: 500px; /*img er lomba barano r komanor jonno*/
+    width: 600px; /*img er side barano r komanor jonno*/
+
+}
+.parent{
+    display: flex;/*div ke pasa pasi anar jonno flax use kore*/
+    justify-content: space-between; /*dui ta div ke dui pase newor jonno*/
+    align-items: center;/*item gulake maje anar jonno*/
+}
+.box1{
+    height: 500px; /*img er lomba barano r komanor jonno*/
+    width: 600px; /*img er side barano r komanor jonno*/
+    background-color: rgb(255, 0, 162); /*back color er jonno*/
+}
+.box2{
+    height: 500px; /*img er lomba barano r komanor jonno*/
+    width: 300px; /*img er side barano r komanor jonno*/
+    background-color: aqua; /*back color er jonno*/
+}
+
+
+/*=====================  class 4  =========================================*/

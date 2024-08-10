@@ -1,0 +1,214 @@
+
+
+
+/* ======================= for body css ============================= */
+
+
+body{  /*for body*/
+    margin: 0; /* marjin dewor jonno*/
+    padding: 0;/* padding box er bitor jayga kore dey r margin box er out e */
+    box-sizing: border-box;/* */
+    font-size: 16px;/*lekha boro korar jonno*/
+
+}
+
+/* ======================= for header css ============================= */
+
+
+header{ /* box-shadow er jonno 95 beautiful css box shadow search korle onek shadow pabo */
+    /*copy online 95 beautiful css box shadow*/
+    box-shadow: rgb(33 35 38 / 26% ) 0px 13px 15px -10px;/*box er border color korar jonno*/
+}
+
+/* ======================= for nav bar css ============================= */
+
+
+.nav-main{
+    width: 90%; /* er side barano r komanor jonno*/
+    margin: auto; /* marjin dewor jonno*/
+    display: flex;/*div ke pasa pasi anar jonno flax use kore*/
+    justify-content: space-between; /*dui ta div ke dui pase newor jonno*/
+    padding: 20px 0;/* padding box er bitor jayga kore dey r margin box er out e */
+    align-items: center; /*nev er bitor item majkhane newore jonno*/
+    
+
+}
+.nav-main img{
+    height: 50px; /*img er lomba barano r komanor jonno*/
+    width: 90px; /*img er side barano r komanor jonno*/
+}
+nav{}
+nav ul{
+    margin: 0; /* marjin dewor jonno*/
+    padding: 0;/* padding box er bitor jayga kore dey r margin box er out e */
+    display: flex;/*div ke pasa pasi anar jonno flax use kore*/
+
+}
+    /*nav ul a jodi display na day ta hole nav ul li a disply inline dete hove*/
+nav ul li{
+    display: inline-block; /*lakha gula ke pasa pasi boshanor jonno*/
+    padding: 0px 0px 0px 30px ;/* padding box er bitor jayga kore dey r margin box er out e */
+
+}
+nav ul li a{
+    text-decoration: none;/*text er nicer under line remove korar jonno*/
+    color: #3b506c ;/*text er color er jonno*/
+    font-weight: 600;/*lekha mota korar jonno*/
+    font-size: 18px;/*lekha boro korar jonno*/
+}
+.nav-main div{}
+.nav-main div ul{}
+.nav-main div ul li{ display: inline-block; /*lakha gula ke pasa pasi boshanor jonno*/
+    padding: 0px 0px 0px 30px ;/* padding box er bitor jayga kore dey r margin box er out e */
+}
+.nav-main div ul a{
+    text-decoration: none;/*text er nicer under line remove korar jonno*/
+    color: #3b506c ;/*text er color er jonno*/
+    font-weight: 600;/*lekha mota korar jonno*/
+    font-size: 18px;/*lekha boro korar jonno*/
+}
+
+/* ======================= for banner section css ============================= */
+
+
+.contenar{
+    width: 90%; /* er side barano r komanor jonno*/
+    margin: auto; /* marjin dewor jonno*/
+}
+.banner{ /*banner e taxt align likle h1 r p tage lagbe na*/
+    text-align: center;/*lakha majkhane annar jonno*/
+    margin: 40px 0px 0px 0px; /* marjin dewor jonno*/
+}
+.banner h1{
+    text-align: center;/*lakha majkhane annar jonno*/
+    font-size: 60px;/*lekha boro korar jonno*/
+    color: #3b506c ;/*text er color er jonno*/
+    margin: 0; /* marjin dewor jonno*/
+
+}
+.banner h1 span{ /*for color change */
+    color: #0c66ff;/*text er color er jonno*/
+}
+.banner p{
+    text-align: center;/*lakha majkhane annar jonno*/
+    color: #3b506c ;/*text er color er jonno*/
+    font-size: 18px;/*lekha boro korar jonno*/
+}
+.banner img{
+    width: 60%; /*img er side barano r komanor jonno*/
+    margin: 30px 0 0 0; /* marjin dewor jonno*/
+}
+
+ /* ======================= for main section css =============================*/ 
+
+
+ .main{
+    width: 90%; /* er side barano r komanor jonno*/
+    margin: auto; /* marjin dewor jonno*/
+ }
+ .mother{
+    display: flex;/*div ke pasa pasi anar jonno flax use kore*/
+}
+    
+
+ .child{
+    width: 50%; /* er side barano r komanor jonno*/
+    text-align: right;/*lakhadane bame annar jonno*/
+    padding: 25px;/* padding box er bitor jayga kore dey r margin box er out e */
+ }
+ .child h2{
+    font-size: 40px;/*lekha boro korar jonno*/
+    color: #3b506c ;/*text er color er jonno*/
+    
+ }
+ .fast{
+    color: red !important/*ekline dui rokom color use korte porer ta te !important likhte hobe*/ ;/*text er color er jonno*/
+ }
+ .two{
+    text-align: left;/*lakhadane bame annar jonno*/
+ }
+ .child p{}
+
+ /* ======================= for img blog section css =============================*/ 
+
+
+ .img{
+    padding: 50px 0;/* padding box er bitor jayga kore dey r margin box er out e */
+ }
+ .imgdiv{
+    width: 100%; /* er side barano r komanor jonno*/
+    margin: auto; /* marjin dewor jonno*/
+ }
+ 
+ .uni{
+    width: 33.33%; /* er side barano r komanor jonno*/
+    float: left;/* img gula pasa pasi te thekhanor jonno*/
+    
+ }    
+
+ .red{
+    background-color: rgba(255, 0, 0, 0.103);/*backround color er jonno*/
+    margin: 10px; /* marjin dewor jonno*/
+    padding: 20px;/* padding box er bitor jayga kore dey r margin box er out e */
+    border-radius: 5px;/* */
+    box-shadow: rgb(100 100 111 / 23%) 0px 7px 29px 0px;;/*box er border color korar jonno*/
+}
+
+ .red img{
+    max-height: 240px;/*lomba baranor jonno*/
+    max-width: 100%;/*side baranor jonno*/
+    width: 100%;/*  */
+    padding-top: 50px;/*upor theke padding box er jonno*/
+ }
+ .red h3{
+    color: #3b506c;/*text er color er jonno*/
+    font-size: 25px;/*lekha boro korar jonno*/
+ }
+ .red p{
+    font-size: 17px;/*lekha boro korar jonno*/
+    color: #3b506c;/*text er color er jonno*/
+ }
+
+ .blue{
+    background-color: rgba(255, 0, 0, 0.103);/*backround color er jonno*/
+    margin: 10px; /* marjin dewor jonno*/
+    padding: 20px 0px;/* padding box er bitor jayga kore dey r margin box er out e */
+    border-radius: 5px;/* */
+    box-shadow: rgb(100 100 111 / 23%) 0px 7px 29px 0px;;/*box er border color korar jonno*/
+}
+ .blue img{
+    max-height: 240px;/*lomba baranor jonno*/
+    max-width: 100%;/*side baranor jonno*/
+    width: 100%;/*  */
+    padding-top: 50px;/*upor theke padding box er jonno*/
+ }
+ .blue h3{
+    color: #3b506c;/*text er color er jonno*/
+    font-size: 25px;/*lekha boro korar jonno*/
+ }
+ .blue p{
+    font-size: 17px;/*lekha boro korar jonno*/
+    color: #3b506c;/*text er color er jonno*/
+ }
+
+ .green{
+    background-color: rgba(255, 0, 0, 0.103);/*backround color er jonno*/
+    margin: 10px; /* marjin dewor jonno*/
+    padding: 20px;/* padding box er bitor jayga kore dey r margin box er out e */
+    border-radius: 5px;/* */
+    box-shadow: rgb(100 100 111 / 23%) 0px 7px 29px 0px;;/*box er border color korar jonno*/
+}
+ .green img{
+    max-height: 240px;/*lomba baranor jonno*/
+    max-width: 100%;/*side baranor jonno*/
+    width: 100%;/*  */
+    padding-top: 50px;/*upor theke padding box er jonno*/
+ }
+ .green h3{
+    color: #3b506c;/*text er color er jonno*/
+    font-size: 25px;/*lekha boro korar jonno*/
+ }
+ .green p{
+    font-size: 17px;/*lekha boro korar jonno*/
+    color: #3b506c;/*text er color er jonno*/
+ }
